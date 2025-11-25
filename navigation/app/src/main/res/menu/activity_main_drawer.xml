@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/profilex"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/nav_twitter"
+            android:icon="@drawable/twitterxx"
+            android:title="Twitter Blue" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/topic"
+            android:title="Topics" />
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/bookmark"
+            android:title="Bookmarks" />
+    </group>
+</menu>
